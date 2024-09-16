@@ -1,8 +1,8 @@
 # Trilha de Aprendizagem com REACT
 
-##DIA 01 (16/09/2024):
+## DIA 01 (16/09/2024):
 
-###Nivel Basico foi adquirido!
+### Nivel Basico foi adquirido!
 
 Base do projeto disponivel em: [Create React App](https://github.com/facebook/create-react-app).
 
