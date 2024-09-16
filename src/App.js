@@ -6,7 +6,7 @@ import Greeting from './components/Greeting';
 import Counter from './components/Counter';
 import TextInput from './components/TextInput';
 import './assets/css/style.css';
-import TextInput from './components/TextInput';
+
 
 function App( ) {
   return (
