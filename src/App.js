@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import Greeting from './components/Greeting';
+import Counter from './components/Counter';
+import TextInput from './components/TextInput';
+import './assets/css/style.css';
+import TextInput from './components/TextInput';
 
-function App() {
+function App( ) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header /> {/* Conteudo do cabeçario aqui */}
+      <Main /> {/* Conteudo Principal aqui */}
+      <TextInput /> {/* Conteudo do input aqui */}
+      <Greeting name="Felipe" /> {/* Conteudo de Saudação aqui */}
+      <Counter /> {/* Conteudo do Contador aqui */}
+      <Footer /> {/* Conteudo do Rodapé aqui */}
     </div>
   );
 }
