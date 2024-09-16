@@ -3,6 +3,10 @@
 ## DIA 01 (16/09/2024):
 
 ### Nivel Basico foi adquirido!
+#### Criando o projeto
+#### Entendendo Funções basicas
+#### Semantica do HTML e JS
+#### Iniciando o servidor!
 
 Base do projeto disponivel em: [Create React App](https://github.com/facebook/create-react-app).
 
